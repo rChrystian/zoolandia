@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio01({ navigation }) { return <TerritoryScreen navigation={navigation} title="Savana" emoji="🦁" color="#F5B544" fact="O elefante usa a tromba para beber água e cumprimentar amigos." />; }
