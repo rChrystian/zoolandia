@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio04({ navigation }) { return <TerritoryScreen navigation={navigation} title="Geleira" emoji="🐧" color="#62B9E6" fact="Os pinguins têm penas especiais que os ajudam a se manter aquecidos." />; }
