@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio02({ navigation }) { return <TerritoryScreen navigation={navigation} title="Floresta" emoji="🦜" color="#48AD6B" fact="As araras vivem em grupos e usam suas cores vibrantes para se reconhecer." />; }
