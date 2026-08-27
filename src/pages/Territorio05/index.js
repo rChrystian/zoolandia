@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio05({ navigation }) { return <TerritoryScreen navigation={navigation} title="Deserto" emoji="🦎" color="#DA9343" fact="Alguns lagartos conseguem guardar água no corpo para viver em lugares bem quentes." />; }
