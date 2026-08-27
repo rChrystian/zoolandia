@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Zoolândia Kids",
+    "slug": "zoolandia-kids",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#DDF2C6"
+    },
+    "android": {
+      "package": "com.zoolandia.kids"
+    }
+  }
+}
