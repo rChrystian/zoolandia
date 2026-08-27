@@ -1,0 +1,9 @@
+import React from 'react';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import Button from './Button';
+
+export default function TerritoryScreen({ navigation, title, emoji, color, fact }) {
+  return <ScrollView contentContainerStyle={styles.page}><View style={[styles.hero, { backgroundColor: color }]}><Text style={styles.emoji}>{emoji}</Text><Text style={styles.title}>{title}</Text><Text style={styles.subtitle}>Um lugar cheio de descobertas</Text></View><Text style={styles.heading}>Você sabia?</Text><View style={styles.fact}><Text style={styles.factIcon}>💬</Text><Text style={styles.factText}>{fact}</Text></View><View style={styles.challenge}><Text style={styles.challengeLabel}>MISSÃO DO DIA</Text><Text style={styles.challengeText}>Observe os animais e encontre três detalhes especiais!</Text></View><Button title="Voltar ao mapa" onPress={() => navigation.navigate('Home')} /></ScrollView>;
+}
+
+const styles = StyleSheet.create({ page: { padding: 22, gap: 18, paddingBottom: 34 }, hero: { minHeight: 220, borderRadius: 28, justifyContent: 'flex-end', padding: 22, overflow: 'hidden' }, emoji: { fontSize: 106, position: 'absolute', alignSelf: 'center', top: 25 }, title: { color: '#FFF', fontSize: 30, fontWeight: '900' }, subtitle: { color: '#FFF', fontWeight: '600', marginTop: 4 }, heading: { color: '#245A43', fontSize: 22, fontWeight: '900', marginTop: 4 }, fact: { backgroundColor: '#FFF', borderRadius: 20, padding: 18, flexDirection: 'row', gap: 12 }, factIcon: { fontSize: 26 }, factText: { flex: 1, color: '#4D685C', fontSize: 16, lineHeight: 23, fontWeight: '600' }, challenge: { padding: 18, backgroundColor: '#FFF3C4', borderRadius: 20 }, challengeLabel: { color: '#937023', fontSize: 11, letterSpacing: 1, fontWeight: '900' }, challengeText: { color: '#5D4A21', fontSize: 17, lineHeight: 23, fontWeight: '800', marginTop: 5 } });
