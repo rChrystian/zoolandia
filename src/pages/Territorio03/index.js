@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio03({ navigation }) { return <TerritoryScreen navigation={navigation} title="Oceano" emoji="🐬" color="#5277D9" fact="Os golfinhos usam sons para conversar e se orientar debaixo d'água." />; }
