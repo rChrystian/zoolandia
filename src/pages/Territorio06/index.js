@@ -1,0 +1,1 @@
+import React from 'react'; import TerritoryScreen from '../../components/TerritoryScreen'; import './styles'; export default function Territorio06({ navigation }) { return <TerritoryScreen navigation={navigation} title="Pantanal" emoji="🐊" color="#76B766" fact="O jacaré-do-pantanal é um excelente nadador e gosta de descansar ao sol." />; }
